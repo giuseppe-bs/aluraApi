@@ -17,16 +17,16 @@ Bem-vindo ao repositório do projeto de agendamento de consultas médicas, desen
 
 O projeto está organizado da seguinte forma:
 
-- `src/main/java/com/consultas`: Contém a lógica de negócio, controladores, serviços e repositórios.
+- `src/main/java/br/com/giuseppebs/aluraApi/`: Contém a lógica de negócio, serviços, controladores e repositórios.
 - `src/main/resources`: Arquivos de configuração do Spring Boot.
-- `src/test/java/com/consultas`: Testes automatizados para garantir a qualidade do código.
+- `src/test/java/br/com/giuseppebs/aluraApi/`: Testes automatizados para garantir a qualidade do código.
 
 ## Requisitos
 
-- **Java 11+**: Linguagem de programação utilizada.
+- **Java 21+**: Linguagem de programação utilizada.
 - **Maven**: Gerenciador de dependências.
-- **Spring Boot 2.5+**: Framework principal para o desenvolvimento do projeto.
-- **Banco de Dados**: Pode ser configurado conforme necessidade (H2, MySQL, PostgreSQL, etc).
+- **Spring Boot 3.2+**: Framework principal para o desenvolvimento do projeto.
+- **Banco de Dados**: foi utilizado o MySQL para armazenamento dos dados.
 
 ## Configuração do Ambiente de Desenvolvimento
 
@@ -34,3 +34,13 @@ O projeto está organizado da seguinte forma:
    ```bash
    git clone https://github.com/giuseppe-bs/consultas-medicas.git
    cd consultas-medicas
+   ```
+2. **Execute o projeto:**
+   ```bash
+   mvn spring-boot:run
+   ```
+3. **Acesse a documentação da API:**
+   ```
+   http://localhost:8080/swagger-ui.html
+   ```
+4. **Explore os endpoints disponíveis e faça requisições para testar a aplicação.**
