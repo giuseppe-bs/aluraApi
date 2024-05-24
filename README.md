@@ -1,6 +1,3 @@
-# Recreating the README.txt file with the provided content
-
-readme_content = """
 # Projeto de Agendamento de Consultas Médicas
 
 Bem-vindo ao repositório do projeto de agendamento de consultas médicas, desenvolvido durante a Formação em Java e Spring Boot. Este projeto consiste em uma aplicação backend robusta, criada para ser consumida por um aplicativo de agendamento de consultas médicas. O projeto faz uso do Spring Boot, um framework que facilita e acelera o desenvolvimento de aplicações web e microsserviços.
